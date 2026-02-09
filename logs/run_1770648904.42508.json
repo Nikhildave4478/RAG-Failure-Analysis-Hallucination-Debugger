@@ -1,0 +1,26 @@
+{
+  "query": "Do online shopping platforms guarantee product quality?",
+  "retrieved_chunks": [
+    {
+      "content": "Online shopping platforms do NOT manufacture products themselves.\nThey do NOT guarantee product quality beyond seller policies.\nThey do NOT provide instant delivery in all cases.",
+      "metadata": {
+        "source": "data/documents.txt"
+      }
+    },
+    {
+      "content": "Online shopping allows customers to purchase products and services over the internet using websites or mobile applications.\nCustomers can browse products, compare prices, read reviews, and place orders from their homes.",
+      "metadata": {
+        "source": "data/documents.txt"
+      }
+    },
+    {
+      "content": "Most online shopping platforms support digital payment methods such as credit cards, debit cards, net banking, and mobile wallets.\nSome platforms also offer cash-on-delivery as a payment option.",
+      "metadata": {
+        "source": "data/documents.txt"
+      }
+    }
+  ],
+  "prompt": "You are a strict QA system.\nAnswer ONLY using the context below.\nIf the answer is not in the context, say: 'I do not know.'\n\nContext:\nOnline shopping platforms do NOT manufacture products themselves.\nThey do NOT guarantee product quality beyond seller policies.\nThey do NOT provide instant delivery in all cases.\n\nOnline shopping allows customers to purchase products and services over the internet using websites or mobile applications.\nCustomers can browse products, compare prices, read reviews, and place orders from their homes.\n\nMost online shopping platforms support digital payment methods such as credit cards, debit cards, net banking, and mobile wallets.\nSome platforms also offer cash-on-delivery as a payment option.\n\nQuestion:\nDo online shopping platforms guarantee product quality?\n\nAnswer:",
+  "answer": "I do not know.",
+  "timestamp": "2026-02-09T20:25:04.424493"
+}

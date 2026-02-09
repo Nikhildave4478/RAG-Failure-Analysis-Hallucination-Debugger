@@ -1,0 +1,7 @@
+from config import TOP_K
+
+def get_retriever(vectorstore):
+    retriever = vectorstore.as_retriever(
+        search_kwargs={"k": TOP_K}
+    )
+    return retriever

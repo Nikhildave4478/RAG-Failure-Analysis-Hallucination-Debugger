@@ -1,0 +1,6 @@
+# config.py
+CHUNK_SIZE = 300
+CHUNK_OVERLAP = 50
+TOP_K = 3
+TEMPERATURE = 0.0
+LOG_DIR = "logs"

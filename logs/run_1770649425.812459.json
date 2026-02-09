@@ -1,0 +1,26 @@
+{
+  "query": "What payment methods are supported in online shopping?",
+  "retrieved_chunks": [
+    {
+      "content": "Most online shopping platforms support digital payment methods such as credit cards, debit cards, net banking, and mobile wallets.\nSome platforms also offer cash-on-delivery as a payment option.",
+      "metadata": {
+        "source": "data/documents.txt"
+      }
+    },
+    {
+      "content": "Online shopping allows customers to purchase products and services over the internet using websites or mobile applications.\nCustomers can browse products, compare prices, read reviews, and place orders from their homes.",
+      "metadata": {
+        "source": "data/documents.txt"
+      }
+    },
+    {
+      "content": "Online shopping platforms typically provide order tracking features.\nCustomers can track shipment status, estimated delivery dates, and delivery progress after placing an order.",
+      "metadata": {
+        "source": "data/documents.txt"
+      }
+    }
+  ],
+  "prompt": "You are a strict QA system.\nAnswer ONLY using the context below.\nIf the answer is not in the context, say: 'I do not know.'\n\nContext:\nMost online shopping platforms support digital payment methods such as credit cards, debit cards, net banking, and mobile wallets.\nSome platforms also offer cash-on-delivery as a payment option.\n\nOnline shopping allows customers to purchase products and services over the internet using websites or mobile applications.\nCustomers can browse products, compare prices, read reviews, and place orders from their homes.\n\nOnline shopping platforms typically provide order tracking features.\nCustomers can track shipment status, estimated delivery dates, and delivery progress after placing an order.\n\nQuestion:\nWhat payment methods are supported in online shopping?\n\nAnswer:",
+  "answer": "Credit cards, debit cards, net banking, mobile wallets, and cash-on-delivery.",
+  "timestamp": "2026-02-09T20:33:45.811868"
+}

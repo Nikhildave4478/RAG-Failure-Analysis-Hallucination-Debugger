@@ -1,0 +1,26 @@
+{
+  "query": "do online shipping provide ? order tracking features",
+  "retrieved_chunks": [
+    {
+      "content": "Online shopping platforms typically provide order tracking features.\nCustomers can track shipment status, estimated delivery dates, and delivery progress after placing an order.",
+      "metadata": {
+        "source": "data/documents.txt"
+      }
+    },
+    {
+      "content": "Online shopping allows customers to purchase products and services over the internet using websites or mobile applications.\nCustomers can browse products, compare prices, read reviews, and place orders from their homes.",
+      "metadata": {
+        "source": "data/documents.txt"
+      }
+    },
+    {
+      "content": "Online shopping offers convenience and time savings.\nHowever, it also has disadvantages such as delayed deliveries, limited physical inspection of products, and dependency on internet access.",
+      "metadata": {
+        "source": "data/documents.txt"
+      }
+    }
+  ],
+  "prompt": "You are a strict QA system.\nAnswer ONLY using the context below.\nIf the answer is not in the context, say: 'I do not know.'\n\nContext:\nOnline shopping platforms typically provide order tracking features.\nCustomers can track shipment status, estimated delivery dates, and delivery progress after placing an order.\n\nOnline shopping allows customers to purchase products and services over the internet using websites or mobile applications.\nCustomers can browse products, compare prices, read reviews, and place orders from their homes.\n\nOnline shopping offers convenience and time savings.\nHowever, it also has disadvantages such as delayed deliveries, limited physical inspection of products, and dependency on internet access.\n\nQuestion:\ndo online shipping provide ? order tracking features\n\nAnswer:",
+  "answer": "Yes.",
+  "timestamp": "2026-02-09T20:42:35.712700"
+}
