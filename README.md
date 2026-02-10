@@ -34,48 +34,13 @@ The system <strong>classifies and explains RAG behavior</strong>, not just outpu
 <h2>🧠 Key Features</h2>
 
 <ul>
-    <li><strong>Modular RAG Pipeline</strong>
-        <ul>
-            <li>Document loading, chunking, vector retrieval, and answer generation</li>
-        </ul>
-    </li>
-
-    <li><strong>Failure Injection</strong>
-        <ul>
-            <li>Drop retrieved chunks</li>
-            <li>Truncate context to simulate partial information</li>
-        </ul>
-    </li>
-
-    <li><strong>Grounding-Based Hallucination Detection</strong>
-        <ul>
-            <li>Flags answer sentences unsupported by retrieved context</li>
-        </ul>
-    </li>
-
-    <li><strong>Query–Context Relevance Detection</strong>
-        <ul>
-            <li>Distinguishes out-of-scope queries from conservative refusals</li>
-        </ul>
-    </li>
-
-    <li><strong>Negation / Contradiction Detection</strong>
-        <ul>
-            <li>Identifies missed answers when context contains explicit negative facts</li>
-        </ul>
-    </li>
-
-    <li><strong>Explainable Debugger Output</strong>
-        <ul>
-            <li>Clear verdicts with reasons (PASS / FAIL)</li>
-        </ul>
-    </li>
-
-    <li><strong>Interactive Streamlit UI</strong>
-        <ul>
-            <li>Inspect answers, context, grounding scores, and failure modes in real time</li>
-        </ul>
-    </li>
+    <li><strong>Modular RAG Pipeline:</strong> Document loading, chunking, vector retrieval, and context-grounded answer generation</li>
+    <li><strong>Failure Injection:</strong> Dropping retrieved chunks and truncating context to simulate degraded retrieval</li>
+    <li><strong>Grounding-Based Hallucination Detection:</strong> Flags answer sentences unsupported by retrieved context</li>
+    <li><strong>Query–Context Relevance Detection:</strong> Distinguishes out-of-scope queries from conservative refusals</li>
+    <li><strong>Negation / Contradiction Detection:</strong> Identifies missed answers caused by explicit negative evidence</li>
+    <li><strong>Explainable Debugger Output:</strong> Clear PASS / FAIL verdicts with reasons</li>
+    <li><strong>Interactive Streamlit UI:</strong> Real-time inspection of answers, context, grounding scores, and failure modes</li>
 </ul>
 
 <hr>
