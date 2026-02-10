@@ -126,3 +126,54 @@ UI + Logs
     <li>Streamlit (UI)</li>
 </ul>
 
+<hr>
+
+<h2>📊 Output & Debugger Results</h2>
+
+<p>
+Below are example outputs captured from the interactive debugger UI.
+Each screenshot demonstrates a different RAG behavior and how the debugger
+explains it.
+</p>
+
+<!-- =============================== -->
+<h3>1️⃣ Fully Grounded Answer</h3>
+<p>
+The model provides a correct answer fully supported by the retrieved context.
+No hallucination is detected.
+</p>
+
+<img src="screenshots/grounded_answer.png"
+     alt="Fully Grounded Answer Output"
+     width="100%">
+
+<!-- =============================== -->
+<h3>2️⃣ Out-of-Scope Query (Correct Refusal)</h3>
+<p>
+The query is unrelated to the knowledge base. The model correctly refuses to answer,
+and the debugger classifies it as an out-of-scope query.
+</p>
+
+<img src="screenshots/out_of_scope.png"
+     alt="Out of Scope Query Detection"
+     width="100%">
+
+<!-- =============================== -->
+<h3>4️⃣ Injections</h3>
+
+<img src="screenshots/failure_injection.png"
+     alt="Injected Retrieval Failure"
+     width="100%">
+
+<!-- =============================== -->
+<h3>5️⃣ Hallucination Detection</h3>
+<p>
+The model produces an unsupported claim when context is insufficient.
+The debugger flags the unsupported sentence and marks the response as a hallucination.
+</p>
+
+<img src="screenshots/hallucination_detected.png"
+     alt="Hallucination Detection Output"
+     width="100%">
+
+
