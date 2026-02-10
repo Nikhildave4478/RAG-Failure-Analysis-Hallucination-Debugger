@@ -163,7 +163,7 @@ and the debugger classifies it as an out-of-scope query.
 
 <img src="https://raw.githubusercontent.com/Nikhildave4478/RAG-Failure-Analysis-Hallucination-Debugger/refs/heads/main/output/injections.png"
      alt="Injected Retrieval Failure"
-     width="50%">
+     width="25%">
 
 <!-- =============================== -->
 <h3>5️⃣ Hallucination Detection</h3>
