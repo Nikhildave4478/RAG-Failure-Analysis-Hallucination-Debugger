@@ -143,7 +143,7 @@ The model provides a correct answer fully supported by the retrieved context.
 No hallucination is detected.
 </p>
 
-<img src="screenshots/grounded_answer.png"
+<img src="https://raw.githubusercontent.com/Nikhildave4478/RAG-Failure-Analysis-Hallucination-Debugger/refs/heads/main/output/correct-reply.png"
      alt="Fully Grounded Answer Output"
      width="100%">
 
@@ -154,14 +154,14 @@ The query is unrelated to the knowledge base. The model correctly refuses to ans
 and the debugger classifies it as an out-of-scope query.
 </p>
 
-<img src="screenshots/out_of_scope.png"
+<img src="https://raw.githubusercontent.com/Nikhildave4478/RAG-Failure-Analysis-Hallucination-Debugger/refs/heads/main/output/not-know.png"
      alt="Out of Scope Query Detection"
      width="100%">
 
 <!-- =============================== -->
 <h3>4️⃣ Injections</h3>
 
-<img src="screenshots/failure_injection.png"
+<img src="https://raw.githubusercontent.com/Nikhildave4478/RAG-Failure-Analysis-Hallucination-Debugger/refs/heads/main/output/injections.png"
      alt="Injected Retrieval Failure"
      width="100%">
 
@@ -172,7 +172,7 @@ The model produces an unsupported claim when context is insufficient.
 The debugger flags the unsupported sentence and marks the response as a hallucination.
 </p>
 
-<img src="screenshots/hallucination_detected.png"
+<img src="https://raw.githubusercontent.com/Nikhildave4478/RAG-Failure-Analysis-Hallucination-Debugger/refs/heads/main/output/hallucination.png"
      alt="Hallucination Detection Output"
      width="100%">
 
